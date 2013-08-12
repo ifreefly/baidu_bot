@@ -1,1 +1,5 @@
 /<h1\s+class="(.*?)"\s+title="(.*?)"\s+>(.*?)<\/h1>/
+
+
+百度爬虫学习参考：
+http://blog.csdn.net/pleasecallmewhy/article/details/8934726
