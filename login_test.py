@@ -14,8 +14,8 @@ def main():
     foundH1user = re.search(r'<h1.*?>(.*?)</h1>', respHtml);
     print "foundH1user=",foundH1user;
     if(foundH1user):
-        h1user = foundH1user.group(1);
-        print "文章标题:",h1user; 
+        findresult = foundH1user.group(1);
+        print u"文章标题:",findresult; 
 ###############################################################################
 if __name__=="__main__":
     main();
